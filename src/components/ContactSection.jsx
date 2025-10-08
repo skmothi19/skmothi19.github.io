@@ -5,12 +5,20 @@ import {
   MapPin,
   Phone,
   Send,
-  Twitch,
-  Twitter,
+  X,
+  Github,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useToast } from "@/hooks/use-toast";
 import { useState } from "react";
+
+// add your URLs here
+const SOCIAL = {
+  linkedin: "https://www.linkedin.com/in/shaik-mothi-basha",
+  X: "https://x.com/ShaikMothi02?t=7GDen_HCDoWESSM09h0ccg&s=09",
+  instagram: "https://www.instagram.com/mothi_2002?igsh=OGthZHo1MHJ1bXVz",
+  Github: "https://github.com/skmothi19",
+};
 
 export const ContactSection = () => {
   const { toast } = useToast();
@@ -93,17 +101,37 @@ export const ContactSection = () => {
             <div className="pt-8">
               <h4 className="font-medium mb-4"> Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
-                <a href="#" target="_blank">
+                <a
+                  href={SOCIAL.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn (opens in a new tab)"
+                >
                   <Linkedin />
                 </a>
-                <a href="#" target="_blank">
-                  <Twitter />
+                <a
+                  href={SOCIAL.X}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="X / Twitter (opens in a new tab)"
+                >
+                  <X />
                 </a>
-                <a href="#" target="_blank">
+                <a
+                  href={SOCIAL.instagram}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Instagram (opens in a new tab)"
+                >
                   <Instagram />
                 </a>
-                <a href="#" target="_blank">
-                  <Twitch />
+                <a
+                  href={SOCIAL.Github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="GitHub (opens in a new tab)"
+                >
+                  <Github />
                 </a>
               </div>
             </div>
