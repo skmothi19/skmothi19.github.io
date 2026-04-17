@@ -12,20 +12,19 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Full Stack Software Engineer and Data Scientist
+              Data Engineer | Hyderabad, India
             </h3>
 
             <p className="text-muted-foreground">
-              Passionate Software Engineer and Data Science graduate with expertise in full-stack development (Next.js, React, Node.js) and
-               data analytics (Python, SQL, Tableau).
-               Recently completed my Bachelor's in Data Science while working as a Full Stack Engineer at Interstate,
-               where I built real-time financial dashboards and optimized user experiences. 
+              Data Engineer with 1+ year of full-time experience building scalable, production-grade ETL/ELT data pipelines on the Azure cloud platform. Currently at <strong>Interstate</strong> (Apr 2025 – Present), where I design parameterized ADF pipelines, architect metadata-driven frameworks, and implement Medallion architecture with Delta Lake, processing millions of records daily.
             </p>
 
             <p className="text-muted-foreground">
-              My background in both software engineering and data science allows me to bridge technical implementation with data-driven decision-making.
-               Committed to writing clean, efficient code and developing solutions that leverage the best of both domains.
-               Eager to contribute my skills in building scalable applications while continuing to grow in data-centric development.
+              <strong>Key Achievements:</strong> Reduced manual ingestion by ~40% through reusable pipeline templates • Built metadata-driven frameworks enabling 5+ new datasets with ~30% faster development • Implemented event-driven ingestion via Azure Event Hubs, reducing data latency to under 5 minutes • Achieved 99%+ SLA adherence on critical trading pipelines • Delivered curated datasets via Synapse Serverless SQL supporting BI, analytics, and risk teams
+            </p>
+
+            <p className="text-muted-foreground">
+              Proficient in <strong>Python, SQL, PySpark, Azure Data Factory, Azure Databricks, Delta Lake, ADLS Gen2, Synapse Analytics, and Azure Event Hubs</strong>. Expert in implementing secure data pipelines with Entra ID, Managed Identities, and Azure Key Vault. Experienced in Agile/Scrum workflows, Git, and monitoring production systems with Azure Monitor.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -43,10 +42,10 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Full Stack Software Engineer</h4>
+                  <h4 className="font-semibold text-lg">ETL/ELT Pipeline Architecture</h4>
                   <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with
-                    modern frameworks.
+                    Designing metadata-driven, scalable data pipelines using Azure Data Factory
+                    and implementing Medallion architecture with Delta Lake.
                   </p>
                 </div>
               </div>
@@ -57,10 +56,10 @@ export const AboutSection = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Data Scientist</h4>
+                  <h4 className="font-semibold text-lg">Data Transformation & Quality</h4>
                   <p className="text-muted-foreground">
-                    Leveraging Python, SQL, and machine learning to extract insights, build predictive models, and
-                     transform raw data into actionable business solutions.
+                    Building PySpark transformations in Azure Databricks to cleanse, validate,
+                    and enrich data while ensuring consistency and analytics readiness.
                   </p>
                 </div>
               </div>
@@ -72,10 +71,10 @@ export const AboutSection = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
+                  <h4 className="font-semibold text-lg">Cloud Data Solutions</h4>
                   <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
+                    Implementing secure, event-driven data ingestion with Azure Event Hubs and
+                    managing production monitoring with Azure Monitor & Log Analytics.
                   </p>
                 </div>
               </div>

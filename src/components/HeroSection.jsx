@@ -21,9 +21,9 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-           I create powerful full-stack applications with modern technologies like Next.js, React, and Node.js. 
-           Specializing in both frontend development and data-driven solutions, I build systems that are performant, scalable, and user-friendly.
-            My work combines clean interfaces with robust backend functionality and data insights.
+           I design and build scalable ETL/ELT data pipelines on Azure cloud. 
+           Specializing in data engineering with PySpark, Azure Databricks, and Delta Lake, I transform raw data into analytics-ready insights.
+            My work combines efficient data processing with robust data quality and monitoring practices.
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
