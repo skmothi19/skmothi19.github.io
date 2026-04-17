@@ -1,4 +1,4 @@
-import { Briefcase, Code, User } from "lucide-react";
+import { Briefcase, Code, User, FileDown, FileText } from "lucide-react";
 
 export const AboutSection = () => {
   return (
@@ -31,6 +31,23 @@ export const AboutSection = () => {
               <a href="#contact" className="cosmic-button">
                 {" "}
                 Get In Touch
+              </a>
+              <a 
+                href="/resume.pdf" 
+                download="Shaik_Mothi_Basha_Resume.pdf"
+                className="cosmic-button flex items-center justify-center gap-2"
+              >
+                <FileDown className="h-5 w-5" />
+                Download Resume
+              </a>
+              <a 
+                href="/resume.pdf" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="cosmic-button flex items-center justify-center gap-2"
+              >
+                <FileText className="h-5 w-5" />
+                View Resume
               </a>
             </div>
           </div>
