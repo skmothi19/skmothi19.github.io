@@ -2,34 +2,37 @@ import { useState } from "react";
 import { cn } from "@/lib/utils";
 
 const skills = [
-  // Frontend
-  { name: "HTML/CSS", category: "frontend" },
-  { name: "JavaScript", category: "frontend" },
-  { name: "React",  category: "frontend" },
-  { name: "TypeScript",  category: "frontend" },
-  { name: "Tailwind CSS", category: "frontend" },
-  { name: "Next.js", category: "frontend" },
+  // Azure Cloud
+  { name: "Azure Data Factory", category: "azure" },
+  { name: "Azure Databricks", category: "azure" },
+  { name: "Azure Synapse Analytics", category: "azure" },
+  { name: "Azure Data Lake Storage Gen2", category: "azure" },
+  { name: "Azure Event Hubs", category: "azure" },
+  { name: "Azure Key Vault", category: "azure" },
 
-  // Backend
-  { name: "Node.js", category: "backend" },
-  { name: "PostgreSQL",  category: "backend" },
-  { name: "REST APIs",  category: "backend" },
+  // Big Data & Processing
+  { name: "PySpark", category: "bigdata" },
+  { name: "Spark SQL", category: "bigdata" },
+  { name: "Delta Lake", category: "bigdata" },
+  { name: "Medallion Architecture", category: "bigdata" },
+  { name: "ETL/ELT Pipelines", category: "bigdata" },
 
-  // Tools
-  { name: "Git/GitHub",  category: "tools" },
-  { name: "VS Code",  category: "tools" },
+  // Programming & Tools
+  { name: "Python", category: "tools" },
+  { name: "SQL", category: "tools" },
+  { name: "Git/GitHub", category: "tools" },
+  { name: "VS Code", category: "tools" },
 
-  // Data Science
-  { name: "Python", category: "data" },
-  { name: "Pandas", category: "data" },
-  { name: "NumPy", category: "data" },
-  { name: "Scikit-learn", category: "data" },
-  { name: "SQL", category: "data" },
-  { name: "Tableau", category: "data" },
-  { name: "Machine Learning", category: "data" },
+  // Data Engineering
+  { name: "Batch Processing", category: "engineering" },
+  { name: "Incremental Loads", category: "engineering" },
+  { name: "Event-Driven Ingestion", category: "engineering" },
+  { name: "Data Quality", category: "engineering" },
+  { name: "Metadata-Driven Pipelines", category: "engineering" },
+  { name: "Monitoring & Logging", category: "engineering" },
 ];
 
-const categories = ["all", "frontend", "backend", "data", "tools"];
+const categories = ["all", "azure", "bigdata", "engineering", "tools"];
 
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
