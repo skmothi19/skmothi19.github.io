@@ -3,12 +3,12 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/error.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    title: "Azure End-to-End Data Engineering",
+    description: "Production-ready data pipeline with Azure Data Factory, Databricks, and layered data lake architecture for batch and incremental processing.",
+    image: "/projects/Azure.png",
+    tags: ["Azure", "Databricks", "PySpark", "Data Lake", "Python"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/skmothi19/azure-end-to-end-data-engineering-project",
   },/*
   {
     id: 2,
