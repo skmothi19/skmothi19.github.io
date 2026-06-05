@@ -20,13 +20,17 @@ export const HeroSection = () => {
             </span>
           </h1>
 
-          <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-           I design and build scalable ETL/ELT data pipelines on Azure cloud. 
-           Specializing in data engineering with PySpark, Azure Databricks, and Delta Lake, I transform raw data into analytics-ready insights.
-            My work combines efficient data processing with robust data quality and monitoring practices.
+          <div className="opacity-0 animate-fade-in-delay-3">
+            <p className="text-lg md:text-xl text-primary font-semibold mb-3">
+              Azure Data Engineer · ML/Deep Learning
+            </p>
+          </div>
+
+          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-4">
+            Building production-grade ETL/ELT pipelines on Azure. Reduced data latency from hours to &lt;5 min · Built metadata-driven frameworks cutting dev time ~30% · 99%+ SLA on trading pipelines · Upskilling in ML/Deep Learning for end-to-end data-AI solutions.
           </p>
 
-          <div className="pt-4 opacity-0 animate-fade-in-delay-4">
+          <div className="pt-4 opacity-0 animate-fade-in-delay-5">
             <a href="#projects" className="cosmic-button">
               View My Work
             </a>
